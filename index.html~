@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<title>chavito.org</title>
 </head>
-<body style="background:#333;">
+<body>
 	<marquee behavior="loop" direction="">chavito.org</marquee>
 </body>
 </html>
