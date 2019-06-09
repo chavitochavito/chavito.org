@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="minimum-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no">	
+	<meta name="ad.size" content="width=300,height=250">
+
+	<script type="text/javascript">
+
+		hitClick = function(){ 
+
+			var clickTag = "https://www.google.com/";
+			window.open(clickTag, '_blank');
+			void(0);
+		};
+
+		document.addEventListener("DOMContentLoaded", function(){ 
+			document.getElementById("banner").addEventListener("click",hitClick,false); });
+
+		</script>
+
+
+
+		<title>Sadia 75 Anos</title>
+
+		
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!-- - - - - - - - - - - - ELEMENTS - - - - - - - - - -  -->
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+		<style>
+
+		body{ margin: 0px; padding: 0px; }
+		#clickArea{ position: absolute; top:0; left: 0; z-index: 999; }
+		#clickArea img{ border: 0px }
+		#banner{
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+			box-sizing: border-box;
+			overflow: hidden;
+			position: relative;
+			background-color: #fff;
+			width: 300px;
+			height: 250px;
+			cursor: pointer;
+		}
+		#banner:after{
+			position: absolute;
+			content: '';
+			left: 0px;
+			top: 0px;
+			width: 100%;
+			height: 100%;
+			z-index: 900;
+		}
+		#banner:before{
+			position: absolute;
+			content: '';
+			left: 0px;
+			top: 0px;
+			width: calc(100% - 2px);
+			height: calc(100% - 2px);
+			z-index: 901;
+			border: solid 1px black;
+		}
+
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+
+		.s2_txt3 {
+			background: url(images/s2_txt3.png);
+			background-repeat: no-repeat;
+			position: absolute;
+			left: 96px;
+			top: 82px;
+			width: 54px;
+			height: 41px;
+		}
+		.s2_txt2 {
+			background: url(images/s2_txt2.png);
+			background-repeat: no-repeat;
+			position: absolute;
+			left: 61px;
+			top: 54px;
+			width: 94px;
+			height: 43px;
+		}
+		.s2_txt1 {
+			background: url(images/s2_txt1.png);
+			background-repeat: no-repeat;
+			position: absolute;
+			left: 36px;
+			top: 48px;
+			width: 71px;
+			height: 31px;
+		}
+		.s2_logo1 {
+			background: url(images/s2_logo1.png);
+			background-repeat: no-repeat;
+			position: absolute;
+			left: -21px;
+			top: -21px;
+			width: 188px;
+			height: 292px;
+		}
+		.s2_filtro1 {
+			background: url(images/s2_filtro1.png);
+			background-repeat: no-repeat;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			width: 300px;
+			height: 250px;
+		}
+		.s2_bg1 {
+			background: url(images/s2_bg1.png);
+			background-repeat: no-repeat;
+			position: absolute;
+			left: -20px;
+			top: 0px;
+			width: 396px;
+			height: 250px;
+		}
+
+
+		.s2_bg1 {
+			/* ----- set ----- */
+			/*opacity: 0;*/
+			-webkit-transform-origin: 50% 50%;
+			-ms-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			-webkit-transform: translate3d(-20px, 0px, 0px) scale(1);
+			transform: translate3d(-20px, 0px, 0px) scale(1);
+		}
+		.s2_filtro1 {
+			/* ----- set ----- */
+			/*opacity: 0;*/
+			-webkit-transform-origin: 50% 50%;
+			-ms-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			-webkit-transform: translate3d(0px, 0px, 0px) scale(1);
+			transform: translate3d(0px, 0px, 0px) scale(1);
+		}
+		.s2_logo1 {
+			/* ----- set ----- */
+			opacity: 0;
+			-webkit-transform-origin: 50% 50%;
+			-ms-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			-webkit-transform: translate3d(0px, 30px, 0px) scale(1);
+			transform: translate3d(0px, 30px, 0px) scale(1);
+		}
+		.s2_txt3,
+		.s2_txt2,
+		.s2_txt1 {
+			width: 0px;
+			/* ----- set ----- */
+			/*opacity: 0;*/
+			-webkit-transform-origin: 50% 50%;
+			-ms-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			-webkit-transform: translate3d(-10px, 0px, 0px) scale(1);
+			transform: translate3d(-10px, 0px, 0px) scale(1);
+		}
+
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+
+		.s3_txt1 {
+			background: url(images/s3_txt1.png);
+			background-repeat: no-repeat;
+			position: absolute;
+			left: 112px;
+			top: 31px;
+			width: 77px;
+			height: 127px;
+		}
+		.s3_btn1 {
+			background: url(images/s3_btn1.png);
+			background-repeat: no-repeat;
+			position: absolute;
+			left: 37px;
+			top: 184px;
+			width: 224px;
+			height: 35px;
+		}
+		.s3_bg1 {
+			background: url(images/s3_bg1.png);
+			background-repeat: no-repeat;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			width: 300px;
+			height: 250px;
+		}
+
+
+		.s3_bg1,
+		.s3_txt1,
+		.s3_btn1 {
+			/* ----- set ----- */
+			opacity: 0;
+			-webkit-transform-origin: 50% 50%;
+			-ms-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			-webkit-transform: translate3d(0px, 0px, 0px) scale(1);
+			transform: translate3d(0px, 0px, 0px) scale(1);
+		}
+
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+	</style>
+
+
+
+
+
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+	<!-- - - - - - - - - - - - ANIMATIONS - - - - - - - - -  -->
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+	<style>
+
+	#banner:after{ background: black; }
+	#banner.cortina_out:after{ opacity: 0; transition: all 1s ease; -webkit-transition: all 1s ease; }
+
+	/* - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+
+
+	.alpha_1 { opacity: 1; transition: all .25s ease-in; -webkit-transition: all .25s ease-in; }
+	.alpha_1_instant { opacity: 1; transition: all .01s ease-in; -webkit-transition: all .01s ease-in; }
+	.alpha_0 { opacity: 0!important; transition: all .25s ease-in!important; -webkit-transition: all .25s ease-in!important; }
+	.alpha_0_instant { opacity: 0!important; transition: all .01s ease-in!important; -webkit-transition: all .01s ease-in!important; }
+
+	.anima_in {
+		opacity: 1;
+		transform: translate3d(0px, 0px, 0px) rotate(0deg) scale(1);
+		-webkit-transform: translate3d(0px, 0px, 0px) rotate(0deg) scale(1);
+		transition: all 1.28s cubic-bezier(.09,.63,.24,.98);
+		-webkit-transition: all 1.28s cubic-bezier(.09,.63,.24,.98);
+	}
+	.anima_traveling {
+		opacity: 1;
+		transform: translate3d(0px, 0px, 0px) rotate(0deg) scale(1);
+		-webkit-transform: translate3d(0px, 0px, 0px) rotate(0deg) scale(1);
+
+		transition: 
+		opacity 1s ease-in-out, 
+		transform 5s cubic-bezier(.12,.67,0,1);
+
+		-webkit-transition: 
+		opacity 1s ease-in-out, 
+		transform 5s cubic-bezier(.12,.67,0,1);
+	}
+	.bgs_in {
+		opacity: 1;
+		transform: translate3d(0px, 0px, 0px) rotate(0deg) scale(1);
+		-webkit-transform: translate3d(0px, 0px, 0px) rotate(0deg) scale(1);
+
+		transition: 
+		opacity 1.5s cubic-bezier(1,0,.46,1),
+		transform 10s linear;
+
+		-webkit-transition: 
+		opacity 1.5s cubic-bezier(1,0,.46,1),
+		transform 10s linear;
+	}
+	.txts_in {
+		width: 150px;
+		transform: translate3d(0px, 0px, 0px) rotate(0deg) scale(1);
+		-webkit-transform: translate3d(0px, 0px, 0px) rotate(0deg) scale(1);
+
+		transition: 
+		width 1s ease-in-out, 
+		transform 1.5s cubic-bezier(.09,.63,.24,.98);
+
+		-webkit-transition: 
+		width 1s ease-in-out,
+		transform 1.5s cubic-bezier(.09,.63,.24,.98);
+	}
+
+
+	/* - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+</style>
+</head>
+
+
+
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- - - - - - - - - - - - HTML - - - - - - - - - - - -  -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<body>
+	<div id="banner" class="banner">      	
+		<!-- - - - - - - - - - - CONTENT INIT - - - - - - - - - - -->
+
+
+		<div id="s2_bg1" class="s2_bg1"></div>
+		<div id="s2_filtro1" class="s2_filtro1"></div>
+		<div id="s2_logo1" class="s2_logo1"></div>
+		<div id="s2_txt1" class="s2_txt1"></div>
+		<div id="s2_txt2" class="s2_txt2"></div>
+		<div id="s2_txt3" class="s2_txt3"></div>
+
+		<div id="s3_bg1" class="s3_bg1"></div>
+		<div id="s3_txt1" class="s3_txt1"></div>
+		<div id="s3_btn1" class="s3_btn1"></div>
+
+
+		<!-- - - - - - - - - - - CONTENT END - - - - - - - - - - -->
+	</div>
+
+
+
+
+
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+	<!-- - - - - - - - - - - - TIMELINE - - - - - - - - - -  -->
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+	<script type='text/javascript'>
+		var d = document, $ = function (n) { return d.getElementById(n) }
+		setTimeout(function() { $('banner').classList.add('cortina_out'); }, 100);
+
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+
+
+		setTimeout(function() { $('s2_bg1').classList.add('bgs_in'); }, 150);
+		setTimeout(function() { $('s2_logo1').classList.add('anima_traveling'); }, 1000);
+		setTimeout(function() { $('s2_txt1').classList.add('txts_in'); }, 3500);
+		setTimeout(function() { $('s2_txt2').classList.add('txts_in'); }, 3800);
+		setTimeout(function() { $('s2_txt3').classList.add('txts_in'); }, 4200);
+		
+		setTimeout(function() { $('s3_bg1').classList.add('bgs_in'); }, 8850);
+		setTimeout(function() { $('s3_txt1').classList.add('anima_in'); }, 10000);
+		setTimeout(function() { $('s3_btn1').classList.add('anima_in'); }, 10200);
+
+
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+	</script>
+
+</body>
+</html>
