@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="minimum-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no">	
+	<meta name="ad.size" content="width=320,height=50">
+
+	<script type="text/javascript">
+
+		hitClick = function(){ 
+
+			var clickTag = "https://www.sadia.com.br/";
+			window.open(clickTag, '_blank');
+			void(0);
+		};
+
+		document.addEventListener("DOMContentLoaded", function(){ 
+			document.getElementById("banner").addEventListener("click",hitClick,false); });
+
+		</script>
+
+
+
+		<title>Sadia 75 Anos</title>
+
+		
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!-- - - - - - - - - - - - ELEMENTS - - - - - - - - - -  -->
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+		<style>
+
+		body{ margin: 0px; padding: 0px; }
+		#clickArea{ position: absolute; top:0; left: 0; z-index: 999; }
+		#clickArea img{ border: 0px }
+		#banner{
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+			box-sizing: border-box;
+			overflow: hidden;
+			position: relative;
+			background-color: #fff;
+			width: 320px;
+			height: 50px;
+			cursor: pointer;
+		}
+		#banner:after{
+			position: absolute;
+			content: '';
+			left: 0px;
+			top: 0px;
+			width: 100%;
+			height: 100%;
+			z-index: 900;
+		}
+		#banner:before{
+			position: absolute;
+			content: '';
+			left: 0px;
+			top: 0px;
+			width: calc(100% - 2px);
+			height: calc(100% - 2px);
+			z-index: 901;
+			border: solid 1px black;
+		}
+
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+
+		.s1_txt1 {
+			background: url(images/s1_txt1.png);
+			background-repeat: no-repeat;
+			position: absolute;
+			left: 45px;
+			top: 8px;
+			width: 68px;
+			height: 21px;
+		}
+		.s1_txt2 {
+			background: url(images/s1_txt2.png);
+			background-repeat: no-repeat;
+			position: absolute;
+			left: 76px;
+			top: 17px;
+			width: 65px;
+			height: 25px;
+		}
+		.s1_logo1 {
+			background: url(images/s1_logo1.png);
+			background-repeat: no-repeat;
+			position: absolute;
+			left: 19px;
+			top: -2px;
+			width: 36px;
+			height: 56px;
+		}
+		.s1_filtro1 {
+			background: url(images/s1_filtro1.png);
+			background-repeat: no-repeat;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			width: 165px;
+			height: 50px;
+		}
+		.s1_bg1 {
+			background: url(images/s1_bg1.png);
+			background-repeat: no-repeat;
+			position: absolute;
+			left: -38px;
+			top: 0px;
+			width: 396px;
+			height: 50px;
+		}
+
+
+		.s1_bg1 {
+			/* ----- set ----- */
+			/*opacity: 0;*/
+			-webkit-transform-origin: 50% 50%;
+			-ms-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			-webkit-transform: translate3d(20px, 0px, 0px) scale(1);
+			transform: translate3d(20px, 0px, 0px) scale(1);
+		}
+		.s1_logo1 {
+			/* ----- set ----- */
+			opacity: 0;
+			-webkit-transform-origin: 50% 50%;
+			-ms-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			-webkit-transform: translate3d(0px, 15px, 0px) scale(1);
+			transform: translate3d(0px, 15px, 0px) scale(1);
+		}
+		.s1_txt2,
+		.s1_txt1 {
+			width: 0px;
+			/* ----- set ----- */
+			/*opacity: 0;*/
+			-webkit-transform-origin: 50% 50%;
+			-ms-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			-webkit-transform: translate3d(-10px, 0px, 0px) scale(1);
+			transform: translate3d(-10px, 0px, 0px) scale(1);
+		}
+
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+
+		.s2_txt1 {
+			background: url(images/s2_txt1.png);
+			background-repeat: no-repeat;
+			position: absolute;
+			left: 20px;
+			top: 7px;
+			width: 110px;
+			height: 36px;
+		}
+		.s2_btn1 {
+			background: url(images/s2_btn1.png);
+			background-repeat: no-repeat;
+			position: absolute;
+			left: 240px;
+			top: 15px;
+			width: 70px;
+			height: 21px;
+		}
+
+
+		.s2_txt1,
+		.s2_btn1 {
+			/* ----- set ----- */
+			opacity: 0;
+		}
+
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+	</style>
+
+
+
+
+
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+	<!-- - - - - - - - - - - - ANIMATIONS - - - - - - - - -  -->
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+	<style>
+
+	#banner:after{ background: black; }
+	#banner.cortina_out:after{ opacity: 0; transition: all 1s ease; -webkit-transition: all 1s ease; }
+
+	/* - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+
+
+	.alpha_1 { opacity: 1; transition: all .25s ease-in; -webkit-transition: all .25s ease-in; }
+	.alpha_1_instant { opacity: 1; transition: all .01s ease-in; -webkit-transition: all .01s ease-in; }
+	.alpha_0 { opacity: 0!important; transition: all .25s ease-in!important; -webkit-transition: all .25s ease-in!important; }
+	.alpha_0_instant { opacity: 0!important; transition: all .01s ease-in!important; -webkit-transition: all .01s ease-in!important; }
+
+	.anima_in {
+		opacity: 1;
+
+		transform: 
+		translate3d(0px, 0px, 0px) rotate(0deg) scale(1);
+		-webkit-transform: 
+		translate3d(0px, 0px, 0px) rotate(0deg) scale(1);
+
+		transition:
+		all .8s cubic-bezier(.09,.63,.24,.98);
+
+		-webkit-transition:
+		all .8s cubic-bezier(.09,.63,.24,.98);
+	}
+	.logo_traveling {
+		opacity: 1;
+
+		transform: 
+		translate3d(0px, 0px, 0px) rotate(0deg) scale(1);
+		-webkit-transform: 
+		translate3d(0px, 0px, 0px) rotate(0deg) scale(1);
+
+		transition: 
+		opacity 1s ease-in-out, 
+		transform 5s cubic-bezier(.12,.67,0,1);
+
+		-webkit-transition: 
+		opacity 1s ease-in-out, 
+		transform 5s cubic-bezier(.12,.67,0,1);
+	}
+	.bgs_in {
+		opacity: 1;
+		transform:
+		translate3d(0px, 0px, 0px) rotate(0deg) scale(1);
+		-webkit-transform:
+		translate3d(0px, 0px, 0px) rotate(0deg) scale(1);
+
+		transition: 
+		opacity 1.5s cubic-bezier(1,0,.46,1),
+		transform 18s cubic-bezier(.12,.67,0,1);
+
+		-webkit-transition: 
+		opacity 1.5s cubic-bezier(1,0,.46,1),
+		transform 18s cubic-bezier(.12,.67,0,1);
+	}
+	.txts_in {
+		width: 75px;
+		
+		transform:
+		translate3d(0px, 0px, 0px) rotate(0deg) scale(1);
+		-webkit-transform:
+		translate3d(0px, 0px, 0px) rotate(0deg) scale(1);
+
+		transition: 
+		width 2s ease-in-out, 
+		transform 1.5s cubic-bezier(.09,.63,.24,.98);
+
+		-webkit-transition: 
+		width 2s ease-in-out,
+		transform 1.5s cubic-bezier(.09,.63,.24,.98);
+	}
+
+
+	/* - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+</style>
+</head>
+
+
+
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- - - - - - - - - - - - HTML - - - - - - - - - - - -  -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<body>
+	<div id="banner" class="banner">      	
+		<!-- - - - - - - - - - - CONTENT INIT - - - - - - - - - - -->
+
+
+		<div id="s1_bg1" class="s1_bg1"></div>
+		<div id="s1_filtro1" class="s1_filtro1"></div>
+		<div id="s1_logo1" class="s1_logo1"></div>
+		<div id="s1_txt1" class="s1_txt1"></div>
+		<div id="s1_txt2" class="s1_txt2"></div>
+
+		<div id="s2_txt1" class="s2_txt1"></div>
+		<div id="s2_btn1" class="s2_btn1"></div>
+
+
+		<!-- - - - - - - - - - - CONTENT END - - - - - - - - - - -->
+	</div>
+
+
+
+
+
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+	<!-- - - - - - - - - - - - TIMELINE - - - - - - - - - -  -->
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+	<script type='text/javascript'>
+		var d = document, $ = function (n) { return d.getElementById(n) }
+		setTimeout(function() { $('banner').classList.add('cortina_out'); }, 100);
+
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+
+
+		setTimeout(function() { $('s1_bg1').classList.add('bgs_in'); }, 150);
+		setTimeout(function() { $('s1_logo1').classList.add('logo_traveling'); }, 1000);
+		setTimeout(function() { $('s1_txt1').classList.add('txts_in'); }, 2500);
+		setTimeout(function() { $('s1_txt2').classList.add('txts_in'); }, 3500);
+
+		setTimeout(function() { $('s1_logo1').classList.add('alpha_0'); }, 9150);
+		setTimeout(function() { $('s1_txt1').classList.add('alpha_0'); }, 9000);
+		setTimeout(function() { $('s1_txt2').classList.add('alpha_0'); }, 9050);
+		
+		setTimeout(function() { $('s2_txt1').classList.add('anima_in'); }, 9300);
+		setTimeout(function() { $('s2_btn1').classList.add('anima_in'); }, 10000);
+
+
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+	</script>
+
+</body>
+</html>
