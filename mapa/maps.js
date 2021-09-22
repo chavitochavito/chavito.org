@@ -266,3 +266,4 @@ function initMap() {
 		})(marker, i));
 	  }	
 }
+initMap();
